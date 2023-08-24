@@ -10,18 +10,18 @@ body{
     height: 100%;
     font-weight: bold;
     overflow-y: hidden;
-    background-color: #0f0f0f;
+    background-color: rgb(32,33,36);
 }
 div{
     padding-top: 30px;
     text-align: center;
     margin: auto;
     margin-bottom: 30px;
-    margin-top: 200px;
+    margin-top: 50px;
     color: white;
-    background-color:  #212121;
+    background-color:  rgb(23,23,23);
     width: 330px;
-    height: 350px;
+    height: 360px;
     border-radius: 10px;
 }
 a{
@@ -54,9 +54,9 @@ input{
     font-size: 16px;
     margin: 15px;
     margin-top: 15px;
-    background-color:  #212121;
+    background-color:rgb(23,23,23);
     color: white;
-    border-bottom: 1px solid rgb(95,99,104);
+    border-bottom: 1px solid white;
 }
 input::placeholder{
     color: white;
@@ -98,4 +98,12 @@ form{
     color: black;
     cursor: pointer;
     border: 2px white solid;
+}
+h2{
+    text-align: center;
+    color: lightskyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 40px;
 }

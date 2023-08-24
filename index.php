@@ -11,6 +11,9 @@ session_start();
     <title>Bem Vindo(a)!</title>
 </head>
 <body>
+    <h2>
+        Poggitter
+    </h2>
     <div>
         <h1>
             Bem Vindo(a)!

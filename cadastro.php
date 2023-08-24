@@ -12,6 +12,9 @@
     <title>Cadastro</title>
 </head>
 <body>
+    <h2>
+        Poggitter
+    </h2>
     <div class="form">
         <h1>
             Insira seus Dados

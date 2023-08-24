@@ -57,7 +57,7 @@ a:hover{
     padding: 5px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 200px;
+    margin-top: 0%;
     font-weight: normal;
     opacity: 60%;
 }
@@ -73,7 +73,6 @@ a:hover{
     color: white;
     margin:auto;
     margin-top: 20px;
-    margin-bottom: 60px;
     background-color:  rgb(23,23,23);
 }
 .conteudo {
@@ -99,4 +98,13 @@ h2{
     left: 100%;
     margin-bottom: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ex{
+    color: red;
+}
+.acoes{
+    margin: auto;
+    margin-left: 870px;
+    margin-top: 5px;
+    margin-bottom: 40px;
 }

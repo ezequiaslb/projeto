@@ -16,13 +16,13 @@ mysqli_stmt_bind_param($stmt, 'sss', $name, $email, $passcript);
 
 if (mysqli_stmt_execute($stmt)) {
     $_SESSION['msg'] = 'Cadastrado com sucesso!!!';
-    header('location: cadastro.php');
+    header('location: login.php');
     exit;
 } else {
     $erro = mysqli_stmt_get_result($stmt);
     if ($erro && mysqli_num_rows($erro) > 0) {
         $_SESSION['msg'] = 'Email já cadastrado!!!';
-        header('location: login.php');
+        header('location: cadastro.php');
         exit;
     } else {
         $_SESSION['msg'] = 'Erro ao cadastrar';

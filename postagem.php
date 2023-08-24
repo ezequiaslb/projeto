@@ -26,7 +26,8 @@ session_start();
                         Poggitter
                     </h2>
                     <a href="home.php">Página Inicial</a>
-                    <a style="opacity: 100%; "href="postagem.php">Publicar Algo</a>
+                    <a style="opacity: 100%;" href="postagem.php">Publicar Algo</a>
+                    <a href="mypost.php">Minhas Postagens</a>
                     <a class="sair" href="exit.php">Sair</a>
                 </li>
             </ul>
